@@ -1,0 +1,86 @@
+#header{
+width: 100%; background-image: linear-gradient(to right, cornflowerblue, turquoise);margin-top: 0px;height: 100px;
+padding: 25px;font-family: 'Gill Sans';text-shadow:5px 5px 15px darkblue;color: cornsilk;box-shadow: 10px 10px 20px slateblue;
+
+}
+
+body{
+background-position: center;background-repeat: no-repeat;background-size: cover;padding-bottom: 40px;
+
+
+}
+
+#letter{
+width: 600px;background-color: aquamarine;padding: 20px;border: 4px dashed teal;font-family: 'Tahoma';
+animation-name: example;
+animation-duration: 1.5s;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+    from {box-shadow: 3px 3px 30px rgb(145, 255, 0);}
+
+    to {box-shadow: 3px 3px 30px rgb(92, 0, 116);}
+
+}
+
+#greeting{
+text-shadow: 3px 3px 6px blueviolet;
+transition-duration: 0.8s;cursor: pointer;
+box-shadow: 10px 10px 20px teal;
+}
+#greeting:hover{
+text-shadow: 3px 3px 6px rgb(255, 0, 179);
+
+
+
+}
+#first{
+background-color: black;color: white;text-shadow: 3px 3px 6px white;padding: 5px;
+transition-duration: 0.8s;cursor: pointer;
+    
+    
+    }
+
+#first:hover{
+background-color: white;color: black; text-shadow: 3px 3px 6px black;
+
+
+}
+
+#second{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxG_4ds7RbrL8Hv8H07OT5rEaZ052jWcQfcZgfPcG9K6Xvm3B8vNm5SiFv5NopPsDgtho&usqp=CAU");
+padding: 5px;color:black;transition-duration: 0.8s;
+
+}
+
+#second:hover{
+background-image: url("https://i.redd.it/edua1xgjc8r21.jpg");
+
+
+}
+
+
+#end:hover{
+font-family: cursive;
+
+}
+
+#show{
+width: 200px;background-color: navy;height: 45px;color: white;border: 3px dotted white;
+font-size: 20px;font-family: 'Trebuchet MS';border-radius: 20px;transition-duration: 0.7s;
+}
+
+#show:hover{
+background-color: white; border-color: navy;color: navy;
+
+
+}
+
+img{
+border: 6px inset darkgreen;
+
+}
+
